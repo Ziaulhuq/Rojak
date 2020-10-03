@@ -58,11 +58,11 @@ a {
 header {
   width: 100%;
   position: relative;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(187, 89, 107, 0.8)), to(rgba(249, 109, 128, 0.8))), url(images/bg.jpg) center/cover no-repeat;
-  background: linear-gradient(to right bottom, rgba(187, 89, 107, 0.8), rgba(249, 109, 128, 0.8)), url(images/bg.jpg) center/cover no-repeat;
-  -webkit-background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(187, 89, 107, 0.8)), to(rgba(249, 109, 128, 0.8))), url(images/bg.jpg) center/cover no-repeat;
-  -webkit-background-image: linear-gradient(to right bottom, rgba(187, 89, 107, 0.8), rgba(249, 109, 128, 0.8)), url(images/bg.jpg) center/cover no-repeat;
-  -moz-background-image: linear-gradient(to right bottom, rgba(187, 89, 107, 0.8), rgba(249, 109, 128, 0.8)), url(images/bg.jpg) center/cover no-repeat;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(187, 89, 107, 0.8)), to(rgba(249, 109, 128, 0.8))), url(../images/bg.jpg) center/cover no-repeat;
+  background: linear-gradient(to right bottom, rgba(187, 89, 107, 0.8), rgba(249, 109, 128, 0.8)), url(../images/bg.jpg) center/cover no-repeat;
+  -webkit-background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(187, 89, 107, 0.8)), to(rgba(249, 109, 128, 0.8))), url(../images/bg.jpg) center/cover no-repeat;
+  -webkit-background-image: linear-gradient(to right bottom, rgba(187, 89, 107, 0.8), rgba(249, 109, 128, 0.8)), url(../images/bg.jpg) center/cover no-repeat;
+  -moz-background-image: linear-gradient(to right bottom, rgba(187, 89, 107, 0.8), rgba(249, 109, 128, 0.8)), url(../images/bg.jpg) center/cover no-repeat;
   height: 100%;
 }
 
@@ -411,8 +411,8 @@ header .navigation .nav__items .nav__lists .nav__links:hover {
   grid-column-gap: 8rem;
   grid-row-gap: 5px;
   padding-bottom: 3rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ffff), to(1)), url(images/storey-bg.jpg) center/cover no-repeat;
-  background: linear-gradient(bottom, #ffff, 1), url(images/storey-bg.jpg) center/cover no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffff), to(1)), url(../images/storey-bg.jpg) center/cover no-repeat;
+  background: linear-gradient(bottom, #ffff, 1), url(../images/storey-bg.jpg) center/cover no-repeat;
 }
 
 @media only screen and (min-width: 31.25em) {
@@ -570,11 +570,11 @@ header .navigation .nav__items .nav__lists .nav__links:hover {
 }
 
 .menu__image {
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(56, 53, 54, 0.8)), to(rgba(0, 0, 0, 0.8))), url(images/menu.jpg) center/cover no-repeat;
-  background: linear-gradient(to right bottom, rgba(56, 53, 54, 0.8), rgba(0, 0, 0, 0.8)), url(images/menu.jpg) center/cover no-repeat;
-  -webkit-background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(56, 53, 54, 0.8)), to(rgba(0, 0, 0, 0.8))), url(images/menu.jpg) center/cover no-repeat;
-  -webkit-background-image: linear-gradient(to right bottom, rgba(56, 53, 54, 0.8), rgba(0, 0, 0, 0.8)), url(images/menu.jpg) center/cover no-repeat;
-  -moz-background-image: linear-gradient(to right bottom, rgba(56, 53, 54, 0.8), rgba(0, 0, 0, 0.8)), url(images/menu.jpg) center/cover no-repeat;
+  background: -webkit-gradient(linear, left top, right bottom, from(rgba(56, 53, 54, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../images/menu.jpg) center/cover no-repeat;
+  background: linear-gradient(to right bottom, rgba(56, 53, 54, 0.8), rgba(0, 0, 0, 0.8)), url(../images/menu.jpg) center/cover no-repeat;
+  -webkit-background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(56, 53, 54, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../images/menu.jpg) center/cover no-repeat;
+  -webkit-background-image: linear-gradient(to right bottom, rgba(56, 53, 54, 0.8), rgba(0, 0, 0, 0.8)), url(../images/menu.jpg) center/cover no-repeat;
+  -moz-background-image: linear-gradient(to right bottom, rgba(56, 53, 54, 0.8), rgba(0, 0, 0, 0.8)), url(../images/menu.jpg) center/cover no-repeat;
   width: 100%;
   height: 100vh;
 }
